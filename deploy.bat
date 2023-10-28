@@ -9,9 +9,11 @@
 
 @REM 3) run in sequence: (idk why when running in bat one command doesnt see result of others)
 
+
 @REM npm run build
 @REM git add dist
 @REM git commit -m 'adding dist subtree'
 @REM git subtree push --prefix dist origin gh-pages
+
 
 @REM 4) go to repo and deploy branch gh-pages as stanalone website
