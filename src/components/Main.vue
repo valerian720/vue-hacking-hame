@@ -4,7 +4,9 @@
       class="p-4 p-md-5 mb-4 text-white rounded bg-dark"
       style="height: 50em"
     >
-      <div class="col-md-6 px-0">game field TODO</div>
+      <div class="col-md-6 px-0">
+        <GameField />
+      </div>
     </div>
 
     <div class="row g-5">
@@ -160,10 +162,14 @@
 
 <script lang="ts">
 import { Options, Vue } from "vue-class-component";
+import GameField from "./GameScenes/GameField.vue";
 
 @Options({
   props: {
     msg: String,
+  },
+  components: {
+    GameField,
   },
 })
 export default class Main extends Vue {
