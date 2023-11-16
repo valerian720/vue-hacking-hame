@@ -1,5 +1,5 @@
 <template>
-  <canvas> check </canvas>
+  <canvas> </canvas>
 </template>
 
 <script lang="ts">
